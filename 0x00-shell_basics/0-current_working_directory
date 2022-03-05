@@ -1,0 +1,4 @@
+#!/bin/bash
+# this prints absolute path name of the working directory
+SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+echo $SCRIPTPATH
